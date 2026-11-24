@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Treorsi Maker Centre – Create. Teach. Learn. | Opening 2027</title>
+<meta name="description" content="Treorsi Maker Centre is a community workshop for woodwork, metalwork, 3D printing, sewing and video editing, where every generation can make, learn and share. Register your interest.">
+<meta property="og:title" content="Treorsi Maker Centre – opening 2027">
+<meta property="og:description" content="A community workshop where anyone can make, mend and learn. Register your interest.">
+<meta property="og:image" content="treorsi-logo.png">
+<meta name="theme-color" content="#184759">
+<link rel="icon" type="image/png" href="treorsi-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Montserrat:wght@600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* ===== EDIT THESE TWO LINES TO CHANGE THE COLOURS ===== */
+  :root { --bg: #184759; --accent: #F1C710; --soft: #D6E4EA; }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: #fff; font-family: Jost, system-ui, sans-serif; }
+  a { color: var(--accent); }
+  a:hover { color: #ffe066; }
+  a:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+
+  .page { min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+  .wrap { width: 100%; max-width: 1120px; padding: 0 24px; }
+
+  header { display: flex; justify-content: flex-end; padding-top: 20px; padding-bottom: 20px; }
+  header a { font-family: Montserrat, sans-serif; font-weight: 600; font-size: 14px; letter-spacing: .16em; text-transform: uppercase; text-decoration: none; padding: 12px 4px; }
+
+  main { display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 24px; padding-bottom: 80px; }
+  .logo { width: 100%; max-width: 520px; height: auto; display: block; }
+  h1 { margin: 4px 0 0; font-family: Archivo, sans-serif; font-weight: 900; font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: 1; letter-spacing: -.01em; text-transform: uppercase; }
+  .strap { margin: 18px 0 0; font-family: Montserrat, sans-serif; font-weight: 600; font-size: clamp(.85rem, 1.6vw, 1.15rem); line-height: 1.8; letter-spacing: .3em; text-transform: uppercase; }
+  .intro { margin: 40px 0 0; max-width: 680px; font-size: clamp(1.1rem, 2vw, 1.35rem); line-height: 1.6; }
+
+  .cta { margin-top: 40px; display: inline-flex; align-items: center; gap: 14px; min-height: 64px; padding: 18px 40px; background: var(--accent); color: var(--bg); border-radius: 10px; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(1.15rem, 2.2vw, 1.5rem); text-decoration: none; transition: transform .15s ease, background .15s ease; }
+  .cta:hover { color: var(--bg); background: #ffd83a; transform: translateY(-2px); }
+  .small { margin: 16px 0 0; max-width: 520px; font-size: 1rem; line-height: 1.5; color: var(--soft); }
+
+  h2.section { margin: 88px 0 0; font-weight: 400; font-size: clamp(1.8rem, 3.4vw, 2.6rem); letter-spacing: .04em; text-transform: uppercase; }
+  .grid { margin: 32px 0 0; padding: 0; list-style: none; width: 100%; max-width: 900px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; text-align: left; }
+  .grid li { display: flex; align-items: center; gap: 16px; padding: 18px 20px; border: 1px solid rgba(255,255,255,.22); border-radius: 10px; font-size: 1.3rem; }
+  .grid svg { flex: none; width: 36px; height: 36px; stroke: var(--accent); }
+
+  .share { margin-top: 80px; width: 100%; max-width: 900px; padding: 36px 32px; border: 2px solid var(--accent); border-radius: 12px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; text-align: left; }
+  .share div { flex: 1 1 380px; }
+  .share h2 { margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(1.4rem, 2.6vw, 1.9rem); line-height: 1.2; }
+  .share p { margin: 10px 0 0; font-size: 1.1rem; line-height: 1.55; color: var(--soft); }
+  .btn-outline { display: inline-flex; align-items: center; min-height: 52px; padding: 14px 28px; border: 2px solid #fff; border-radius: 10px; color: #fff; font-family: Archivo, sans-serif; font-weight: 800; font-size: 1.1rem; text-decoration: none; white-space: nowrap; }
+  .btn-outline:hover { color: var(--bg); background: #fff; }
+
+  footer { width: 100%; margin-top: auto; background: var(--accent); color: var(--bg); }
+  footer .wrap { margin: 0 auto; padding-top: 24px; padding-bottom: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 32px; font-family: Archivo, sans-serif; font-weight: 800; font-size: 1.1rem; }
+  footer a { color: var(--bg); text-decoration: none; padding: 8px 0; }
+  footer a:hover { color: var(--bg); text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="wrap">
+    <a href="mailto:Joe@treorsi.co.uk">Contact</a>
+  </header>
+
+  <main class="wrap">
+    <img class="logo" src="treorsi-logo.png" width="1426" height="682" alt="Treorsi logo: three bears of increasing size above the word TREORSI">
+    <h1>Maker Centre</h1>
+    <p class="strap">Create · Teach · Learn<br>Community workshop – opening 2027</p>
+
+    <p class="intro">A community workshop where anyone can come to make, mend and learn – with the tools, the space and the people to show you how. Young and old, beginners and old hands, all under one roof.</p>
+
+    <!-- ===== Brevo sign-up form link ===== -->
+    <a class="cta" href="https://0a43a295.sibforms.com/serve/MUIFADCz4vF9nnR-bPu3cgl-dE7reScisOnseND-NiHbUZnDSNpw_vbIzadJFlJ-PMrPnTb9Ij3LM3XuiurY8USKWCZePljS1pHQxyi4qAbKUNdubrc67W8FxH8t9AoNz3GKnFG2yyLfOdJjvHnccKIren6HL5HLrJAQpLRrg35QjMFSkyaXz6AWVTH-aj-z3GLffq7RLF5dBSAz3A==" target="_blank" rel="noopener">
+      Register your interest
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+    </a>
+    <p class="small">Be the first to hear about opening dates, classes and memberships. No spam – unsubscribe any time.</p>
+
+    <h2 class="section">What's coming</h2>
+    <ul class="grid">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h4z"/><rect x="4.2" y="8" width="1.8" height="5" rx="0.9"/><path d="M8 7l14 4v3"/><path d="M8 14l1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6"/></svg>Woodwork</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3l8 8-3 3-8-8z"/><path d="M10 9l-7 7 3 3 7-7"/></svg>Metalwork</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 8h18"/><path d="M10 8v3h4V8"/><path d="M12 11v2"/><path d="M8 18h8l-1-3H9z"/></svg>3D printing</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19L19 5"/><ellipse cx="18.5" cy="5.5" rx="1.2" ry="0.6" transform="rotate(-45 18.5 5.5)"/><path d="M4 12c3-2 5 2 8 0s5-4 8-2"/></svg>Sewing &amp; needlework</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10l6-3v10l-6-3z"/></svg>Video editing studio</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M8 20l4-4 4 4"/></svg>Classes &amp; workshops</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/><path d="M6 15h4"/></svg>Drop-ins &amp; memberships</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 11h1.5a2.5 2.5 0 0 1 0 5H17"/><path d="M8 3v3"/><path d="M12 3v3"/></svg>A cuppa &amp; a chat</li>
+    </ul>
+
+    <section class="share">
+      <div>
+        <h2>Got a lifetime of know-how?</h2>
+        <p>Whether you were a joiner, a dressmaker or a mechanic, we'd love you to come by, put the kettle on and pass your skills on to the next generation.</p>
+      </div>
+      <a class="btn-outline" href="mailto:Joe@treorsi.co.uk?subject=Sharing%20my%20skills%20at%20Treorsi">Get in touch</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Treorsi Maker Centre</span>
+      <a href="mailto:Joe@treorsi.co.uk">Joe@treorsi.co.uk</a>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
