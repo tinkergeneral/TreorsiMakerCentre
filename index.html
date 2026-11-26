@@ -51,6 +51,13 @@
   .btn-outline { display: inline-flex; align-items: center; min-height: 52px; padding: 14px 28px; border: 2px solid #fff; border-radius: 10px; color: #fff; font-family: Archivo, sans-serif; font-weight: 800; font-size: 1.1rem; text-decoration: none; white-space: nowrap; }
   .btn-outline:hover { color: var(--bg); background: #fff; }
 
+  .survey { margin-top: 56px; width: 100%; max-width: 900px; padding: 36px 32px; background: rgba(255,255,255,.07); border-radius: 12px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; text-align: left; }
+  .survey div { flex: 1 1 380px; }
+  .survey h2 { margin: 0; font-family: Archivo, sans-serif; font-weight: 800; font-size: clamp(1.4rem, 2.6vw, 1.9rem); line-height: 1.2; }
+  .survey p { margin: 10px 0 0; font-size: 1.1rem; line-height: 1.55; color: var(--soft); }
+  .btn-accent-outline { display: inline-flex; align-items: center; min-height: 52px; padding: 14px 28px; border: 2px solid var(--accent); border-radius: 10px; color: var(--accent); font-family: Archivo, sans-serif; font-weight: 800; font-size: 1.1rem; text-decoration: none; white-space: nowrap; }
+  .btn-accent-outline:hover { color: var(--bg); background: var(--accent); }
+
   footer { width: 100%; margin-top: auto; background: var(--accent); color: var(--bg); }
   footer .wrap { margin: 0 auto; padding-top: 24px; padding-bottom: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 32px; font-family: Archivo, sans-serif; font-weight: 800; font-size: 1.1rem; }
   footer a { color: var(--bg); text-decoration: none; padding: 8px 0; }
@@ -78,7 +85,16 @@
     </a>
     <p class="small">Be the first to hear about opening dates, classes and memberships. No spam – unsubscribe any time.</p>
 
-    <h2 class="section">What's coming</h2>
+    <!-- ===== Community survey (Tally) ===== -->
+    <section class="survey">
+      <div>
+        <h2>Help shape the centre</h2>
+        <p>What would you make, learn or share? Take our 2-minute survey and help decide what Treorsi offers.</p>
+      </div>
+      <a class="btn-accent-outline" href="https://tally.so/r/WJzEzj" target="_blank" rel="noopener">Take the survey</a>
+    </section>
+
+    <h2 class="section" style="margin-top:72px">What's coming</h2>
     <ul class="grid">
       <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h4z"/><rect x="4.2" y="8" width="1.8" height="5" rx="0.9"/><path d="M8 7l14 4v3"/><path d="M8 14l1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6 1 1.6 1-1.6"/></svg>Woodwork</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3l8 8-3 3-8-8z"/><path d="M10 9l-7 7 3 3 7-7"/></svg>Metalwork</li>
